@@ -142,25 +142,21 @@ namespace ProductModel
 
         public List<Category> ReturnCategories()
         {
-            CreateModel();
             return categories;
         }
 
         public List<Product> ReturnProducts()
         {
-            CreateModel();
             return products;
         }
 
         public List<Supplier> ReturnSuppliers()
         {
-            CreateModel();
             return suppliers;
         }
 
         public List<SupplierProduct> ReturnSupplierProducts()
         {
-            CreateModel();
             return suppliersProducts;
         }
     }
