@@ -10,6 +10,7 @@ namespace Rad301_2024_Week1_Lab1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello, World!");
         }
     }
 }
