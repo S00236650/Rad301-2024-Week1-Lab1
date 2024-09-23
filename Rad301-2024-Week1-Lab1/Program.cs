@@ -79,7 +79,7 @@ namespace Rad301_2024_Week1_Lab1
             Console.WriteLine("\nProducts in the hardware category:");
 
             var hardware = from p in products
-                           where p.CategoryId == 2
+                           where p.CategoryId == 1
                            select p;
 
             foreach (var prods in hardware)
